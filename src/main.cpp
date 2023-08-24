@@ -510,7 +510,7 @@ void bmeHum()
     // z = "";
     String t = "";
     t += outHumData;
-    (outHumData.length() > 2) ? z = "DD" : z = "DDD";   
+    (outHumData.length() > 2) ? z = "DD" : z = "DDD";
     z += t.substring(0, 2);
     color = colorHum;
     flagHum = true;
@@ -521,7 +521,7 @@ void bmeHumOut()
     // z = "";
     String t = "";
     t += outHumDataOut;
-    (outHumDataOut.length() > 2) ? z = "DD" : z = "DDD";   
+    (outHumDataOut.length() > 2) ? z = "DD" : z = "DDD";
     z += t.substring(0, 2);
     color = colorHumOut;
     flagHumOut = true;
